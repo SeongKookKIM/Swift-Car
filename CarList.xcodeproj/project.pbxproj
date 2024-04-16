@@ -11,6 +11,9 @@
 		A6B9ED8D2BCE510300406806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B9ED8C2BCE510300406806 /* ContentView.swift */; };
 		A6B9ED8F2BCE510700406806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B9ED8E2BCE510700406806 /* Assets.xcassets */; };
 		A6B9ED922BCE510700406806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B9ED912BCE510700406806 /* Preview Assets.xcassets */; };
+		A6B9ED992BCE6E8100406806 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B9ED982BCE6E8100406806 /* Model.swift */; };
+		A6B9ED9B2BCE6F3D00406806 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B9ED9A2BCE6F3D00406806 /* CarDetailView.swift */; };
+		A6B9ED9D2BCE6FC900406806 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B9ED9C2BCE6FC900406806 /* Mock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A6B9ED8C2BCE510300406806 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6B9ED8E2BCE510700406806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6B9ED912BCE510700406806 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6B9ED982BCE6E8100406806 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A6B9ED9A2BCE6F3D00406806 /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
+		A6B9ED9C2BCE6FC900406806 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		A6B9ED892BCE510300406806 /* CarList */ = {
 			isa = PBXGroup;
 			children = (
+				A6B9ED9C2BCE6FC900406806 /* Mock.swift */,
+				A6B9ED982BCE6E8100406806 /* Model.swift */,
 				A6B9ED8A2BCE510300406806 /* CarListApp.swift */,
 				A6B9ED8C2BCE510300406806 /* ContentView.swift */,
+				A6B9ED9A2BCE6F3D00406806 /* CarDetailView.swift */,
 				A6B9ED8E2BCE510700406806 /* Assets.xcassets */,
 				A6B9ED902BCE510700406806 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B9ED992BCE6E8100406806 /* Model.swift in Sources */,
+				A6B9ED9D2BCE6FC900406806 /* Mock.swift in Sources */,
 				A6B9ED8D2BCE510300406806 /* ContentView.swift in Sources */,
+				A6B9ED9B2BCE6F3D00406806 /* CarDetailView.swift in Sources */,
 				A6B9ED8B2BCE510300406806 /* CarListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
